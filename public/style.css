@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.carrusel {
+    background-image: url("./img/rx-bgd.jpeg");
+    background-size: cover;
+}
+.slider {
+    width: 95%;
+    overflow: hidden;
+}
+.slider ul {
+    display: flex;
+    padding: 0;
+    width: 700%;
+    animation:cambio 25s infinite;
+    animation-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.slider li {
+    width: 100%;
+    list-style: none;
+}
+.slider img {
+    margin: 0 20% 0 20%;
+    height: 600px;
+}
+
+@keyframes cambio {
+    0% { margin-left: 0; }
+    11% { margin-left: 0; }
+
+    16% { margin-left: -100%; }
+    27% { margin-left: -100%; }
+
+    32% { margin-left: -200%; }
+    43% { margin-left: -200%; }
+
+    48% { margin-left: -300%; }
+    59% { margin-left: -300%; }
+
+    64% { margin-left: -400%; }
+    75% { margin-left: -400%; }
+
+    80% { margin-left: -500%; }
+    91% { margin-left: -500%; }
+
+    96% { margin-left: -600%; }
+    100% { margin-left: -600%; }
+
+}
