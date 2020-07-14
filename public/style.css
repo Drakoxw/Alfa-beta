@@ -17,10 +17,11 @@
     background-size: cover;
 
 }
+
 #logo-largo{
-    position: relative;
-    width: 300px;
-    height: 200px;
+
+    box-sizing: border-box;
+    width: 200px;
 }
 
 @keyframes cambio {
@@ -50,4 +51,8 @@
         background-image: url("./img/alfa-1.jpeg");
     }
 
+}
+@media screen and (min-width: 500px){
+    
+    
 }
