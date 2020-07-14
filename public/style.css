@@ -1,52 +1,53 @@
 *{
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
-.carrusel {
-    background-image: url("./img/rx-bgd.jpeg");
-    background-size: cover;
-}
-.slider {
-    width: 95%;
-    overflow: hidden;
-}
-.slider ul {
-    display: flex;
-    padding: 0;
-    width: 700%;
-    animation:cambio 25s infinite;
-    animation-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
-}
-.slider li {
+.cuerpo{
+    height: 2000px;
     width: 100%;
-    list-style: none;
+    /*background-image: url("./img/alfa-5.JPG");*/
+    background-color: black;
 }
-.slider img {
-    margin: 0 20% 0 20%;
-    height: 600px;
+
+.banner{
+    width: 100%;
+    height: 30%;
+    animation: cambio 27s infinite;
+    background-size: cover;
+
+}
+#logo-largo{
+    position: relative;
+    width: 300px;
+    height: 200px;
 }
 
 @keyframes cambio {
-    0% { margin-left: 0; }
-    11% { margin-left: 0; }
+    0%, 11% {
+        background-image: url("./img/alfa-1.jpeg");
+    }
 
-    16% { margin-left: -100%; }
-    27% { margin-left: -100%; }
+    16%, 27% {
+        background-image: url("./img/alfa-6.jpg");
+    }
 
-    32% { margin-left: -200%; }
-    43% { margin-left: -200%; }
+    32%, 43% {
+        background-image: url("./img/alfa-5.JPG");
+    }
 
-    48% { margin-left: -300%; }
-    59% { margin-left: -300%; }
+    48%, 59% {
+        background-image: url("./img/alfa-4.JPG");
+    }
 
-    64% { margin-left: -400%; }
-    75% { margin-left: -400%; }
-
-    80% { margin-left: -500%; }
-    91% { margin-left: -500%; }
-
-    96% { margin-left: -600%; }
-    100% { margin-left: -600%; }
+    64%, 75% {
+        background-image: url("./img/alfa-2.jpg");
+    }
+    80%, 91% {
+        background-image: url("./img/alfa-7.1.jpg");
+    }
+    96%, 100% {
+        background-image: url("./img/alfa-1.jpeg");
+    }
 
 }
