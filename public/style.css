@@ -3,13 +3,16 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 .cuerpo{
     height: 2000px;
     width: 100%;
-    /*background-image: url("./img/alfa-5.JPG");*/
     background-color: black;
 }
-
+header{
+    display: flex;
+    justify-content: center;
+}
 .banner{
     width: 100%;
     height: 30%;
@@ -19,9 +22,32 @@
 }
 
 #logo-largo{
+    background-color: rgba(0, 0, 0, 0.7);
+    margin-top: 60px;
+    width: 40vh;
+}
+form{
+    
+    width: 95%;
+    margin-left: 2.5%;
+    margin-top: 18vh;
+    border: darkred 3px solid;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.5);
+}
+.w800 {
+    color: azure;
+    text-align: center;
+    font-weight: 800;
+}
+.w600 {
+    color:gold;
+    text-align: center;
+    font-weight: 600;
+}
+  
+body{
+    font-family: 'Montserrat';
 
-    box-sizing: border-box;
-    width: 200px;
 }
 
 @keyframes cambio {
@@ -44,9 +70,11 @@
     64%, 75% {
         background-image: url("./img/alfa-2.jpg");
     }
+
     80%, 91% {
         background-image: url("./img/alfa-7.1.jpg");
     }
+
     96%, 100% {
         background-image: url("./img/alfa-1.jpeg");
     }
