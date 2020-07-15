@@ -3,7 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+.dragon{
+    color: transparent;
+}
 .cuerpo{
     height: 2000px;
     width: 100%;
@@ -24,13 +26,23 @@ header{
 #logo-largo{
     background-color: rgba(0, 0, 0, 0.7);
     margin-top: 60px;
+    margin-bottom: 2em;
     width: 40vh;
+    height: 11vh;
+}
+.logoc{
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    width: 38vh;
+    height: 29vh;
 }
 form{
     
     width: 95%;
     margin-left: 2.5%;
-    margin-top: 18vh;
+    margin-top: 8vh;
     border: darkred 3px solid;
     box-shadow: 5px 5px rgba(0, 0, 0, 0.5);
 }
